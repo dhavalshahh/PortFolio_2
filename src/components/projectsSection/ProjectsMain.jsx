@@ -2,20 +2,23 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-
+import image from"../../images/port.png";
+import image2 from "../../images/piz.png";
+import image3 from "../../images/quiz.png";
+import image4 from "../../images/job.png";
 const projects = [
   {
     name: "Portfolio_1 ",
     year: "July2024",
     align: "right",
-    image: "/images/port.png",
+    image: image,
     link: "https://dhavalshahh.github.io/codsoft_task1/",
   },
   {
     name: "Pizzlo (Pizza Website)",
     year: "July 2024",
     align: "left",
-    image: "/images/piz.png",
+    image: image2,
     // link: "#",
     link: "https://dhavalshahh.github.io/codsoft_task2/",
   },
@@ -23,14 +26,14 @@ const projects = [
     name: "A Quiz platform",
     year: "July 2024",
     align: "right",
-    image: "/images/quiz.png",
+    image: image3,
     link: "https://dhavalshahh.github.io/codsoft_task5/",
   },
   {
     name: "Job_Board",
     year: "march 2025",
     align: "left",
-    image: "/images/job.png",
+    image: image4,
     link: "https://github.com/dhavalshahh/Job_Hunt.git",
   },
 ];
