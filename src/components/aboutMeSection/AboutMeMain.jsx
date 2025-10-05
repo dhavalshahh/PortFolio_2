@@ -17,6 +17,7 @@ const AboutMeMain = () => {
         <AboutMeText />
       </motion.div>
       <motion.div
+        className="hidden md:block" 
         variants={fadeIn("left", 0)}
         initial="hidden"
         whileInView="show"

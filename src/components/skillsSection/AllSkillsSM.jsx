@@ -6,6 +6,9 @@ import { FaPython } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { SiMongodb } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 
 const skills = [
   {
@@ -32,11 +35,23 @@ const skills = [
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
+  {
+    skill: "MongoDB",
+    icon: SiMongodb,
+  },
+  {
+    skill: "NodeJS",
+    icon: FaNode,
+  },
+  {
+    skill: "ExpressJS",
+    icon: SiExpress,
+  },
 ];
 
 const AllSkillsSM = () => {
   return (
-    <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-12 my-12">
       {skills.map((item, index) => {
         return (
           <motion.div

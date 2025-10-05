@@ -7,6 +7,9 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { SiMongodb } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 
 const skills = [
   {
@@ -32,6 +35,18 @@ const skills = [
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "MongoDB",
+    icon: SiMongodb,
+  },
+  {
+    skill: "NodeJS",
+    icon: FaNode,
+  },
+  {
+    skill: "ExpressJS",
+    icon: SiExpress,
   },
 ];
 

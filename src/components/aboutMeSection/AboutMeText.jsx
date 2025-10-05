@@ -2,9 +2,9 @@ import { Link } from "react-scroll";
 
 const AboutMeText = () => {
   return (
-    <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
-      <h2 className="text-6xl text-[#15d1e9] mb-10">About Me</h2>
-      <p>
+    <div className="flex flex-col items-center md:items-start text-center md:text-left">
+      <h2 className="text-5xl md:text-6xl text-[#15d1e9] mb-8 md:mb-10">About Me</h2>
+      <p className='max-w-xl'>
         I am a passionate Software Devloper dedicated about transforming ideas
         into functional code. Currently enrolled in 4rth year at Medi-caps
         University, Indore, my journey involves unravelling the mysteries of
@@ -14,7 +14,7 @@ const AboutMeText = () => {
         meaningful projects and constantly explore new ways to enhance my coding
         prowess.
       </p>
-      <button className="border border-[#fb9718] rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-[#fb9718] transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+      <button className="border border-[#fb9718] rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-[#fb9718] transition-all duration-500 cursor-pointer md:self-start self-center">
         <Link
           spy={true}
           smooth={true}
